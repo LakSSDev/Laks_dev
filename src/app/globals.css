@@ -15,7 +15,13 @@
 }
 
 body {
-  color: var(--foreground);
+  color: white;
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.pill {
+  @apply px-1 py-0.5 bg-gray-100 rounded-md text-gray-700 text-xs border border-gray-300;
 }
